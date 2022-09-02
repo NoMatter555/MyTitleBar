@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTitleBar">
+        <!--左边图片资源-->
+        <attr name="left_image" format="reference" />
+        <!--左边图片的宽度-->
+        <attr name="left_image_width" format="dimension|integer" />
+        <!--左边图片的高度-->
+        <attr name="left_image_height" format="dimension|integer" />
+        <!--左边文本-->
+        <attr name="left_text" format="string" />
+        <!--左边文本字体大小-->
+        <attr name="left_text_size" format="dimension|integer" />
+        <!--左边文本字体颜色-->
+        <attr name="left_text_color" format="color" />
+        <!--中心文本字体-->
+        <attr name="center_text" format="string" />
+        <!--中心文本字体大小-->
+        <attr name="center_text_size" format="dimension|integer" />
+        <!--中心文本字体颜色-->
+        <attr name="center_text_color" format="color" />
+        <!--右边图片资源-->
+        <attr name="right_image" format="reference" />
+        <!--右边图片的宽度-->
+        <attr name="right_image_width" format="dimension|integer" />
+        <!--右边图片的高度-->
+        <attr name="right_image_height" format="dimension|integer" />
+        <!--右边文本字体-->
+        <attr name="right_text" format="string" />
+        <!--右边文本字体大小-->
+        <attr name="right_text_size" format="dimension|integer" />
+        <!--右边文本字体颜色-->
+        <attr name="right_text_color" format="color" />
+    </declare-styleable>
+</resources>
